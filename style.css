@@ -1,0 +1,28 @@
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #252525;
+    margin-left: 140px;
+    margin-bottom: 100px;
+}
+.underline{
+    display: flex;
+
+}
+.main-content{
+    /*width: ;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 90px;
+    margin-left: 250px;
+    margin-right: 240px;
+}
+
+.main-content__point{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #5B5858;
+    
+}
