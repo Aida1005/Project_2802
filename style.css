@@ -4,25 +4,28 @@
     color: #252525;
     margin-left: 140px;
     margin-bottom: 100px;
-}
-.underline{
     display: flex;
+    flex-direction: column;
+    
+}
+.underline {
+    width: 45px;
+    height: 2px;
 
 }
 .main-content{
-    /*width: ;*/
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 90px;
     margin-left: 250px;
     margin-right: 240px;
-}
-
-.main-content__point{
-    
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
     color: #5B5858;
-    
+}
+
+.main-content__point-10{
+    grid-column: 4/2;
 }
