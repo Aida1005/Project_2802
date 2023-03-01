@@ -9,7 +9,7 @@
 
     .main-industries__title__text {
         font-family: 'Oswald', sans-serif;
-        font-size: 36px;
+        font-size: /*36px;*/ 2.25rem;
         font-weight: 700;
         color: #252525;
     }
@@ -33,7 +33,7 @@
     .main-industries__item{
         margin-left: 50px;
         font-family: 'Oswald', sans-serif;
-        font-size: 24px;
+        font-size: /*24px;*/1.5rem;
         color: #5B5858;
         text-align: center;
     }
@@ -49,18 +49,26 @@
 
 /*Media Quary*/
 
-    @media only screen and (max-width: 800px){
+
+    /*@media only screen and (max-width: 800px){
         .main-industries__list{
             grid-template-columns: 1fr;
             margin: 0;
         }
-    }
-    @media only screen and (max-width: 800px){
+    }*/
+   
+    @media only screen and (max-width: /*800px*/ 600px){
+        .main-industries__list{
+            grid-template-columns: 1fr;
+            margin: 0;
+        }
         .main-industries__title{
             margin-left: 0;
             justify-items: center;
+            justify-content: start;
         }
         .main-industries__title__decoration{
-            display: none;
+            /*display: none;*/
+            margin-right: 242px;
         }
     }
