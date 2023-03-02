@@ -33,6 +33,7 @@
     .main-industries__item{
         margin-left: 50px;
         font-family: 'Oswald', sans-serif;
+        font-weight: normal;
         font-size: /*24px;*/1.5rem;
         color: #5B5858;
         text-align: center;
@@ -41,6 +42,7 @@
     .main-industries__item_middle{
         margin-left: 50px;
         font-family: 'Oswald', sans-serif;
+        font-weight: normal;
         font-size: 24px;
         color: #5B5858;
         text-align: center;
@@ -72,3 +74,4 @@
             margin-right: 242px;
         }
     }
+
