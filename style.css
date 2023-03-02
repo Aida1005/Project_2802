@@ -47,7 +47,7 @@
         grid-column: 2/3;
     }
 
-/*Media Quary*/
+/*Media Query*/
 
     @media only screen and (max-width: 800px){
         .main-industries__list{
