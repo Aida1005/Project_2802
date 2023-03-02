@@ -5,6 +5,7 @@
         margin-top: 100px;
         display:grid;
         margin-bottom: 60px;
+        max-width: 300px;
     }
 
     .main-industries__title__text {
